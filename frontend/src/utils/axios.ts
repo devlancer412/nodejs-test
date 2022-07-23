@@ -1,7 +1,7 @@
 import axios, { AxiosError } from "axios";
 
 const http = axios.create({
-  baseURL: "http://localhost:8080/",
+  baseURL: `http://${process.env.REACT_APP_BACKEND_HOST}:${process.env.REACT_APP_BACKEND_PORT}/`,
   headers: {
     'Access-Control-Allow-Origin': '*',
     'Content-Type': 'application/json',
