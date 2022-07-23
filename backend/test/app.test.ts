@@ -40,3 +40,4 @@ describe("Unit test", () => {
     })
   })
 });
+Error: can't find module @cypress/react/plugins/react-scripts'
